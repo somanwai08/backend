@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pms",
+  "info": {
+    "singularName": "pm",
+    "pluralName": "pms",
+    "displayName": "pm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "area": {
+      "type": "string"
+    },
+    "area1": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "heelHeight": {
+      "type": "json"
+    },
+    "month": {
+      "type": "enumeration",
+      "enum": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    "date": {
+      "type": "integer"
+    }
+  }
+}
