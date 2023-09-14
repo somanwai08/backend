@@ -1,0 +1,10 @@
+[
+    {
+      "method": "POST",
+      "path": "/custom-login",
+      "handler": "custom-auth.login",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
