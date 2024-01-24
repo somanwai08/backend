@@ -1,11 +1,13 @@
 const jwt=require('jsonwebtoken')
 
+
+
 module.exports={
     async login2(ctx){
 
           // 从请求体中获取用户名和密码
     const { identifier, password } = ctx.request.body;
-    console.log(ctx,'ctx');
+    
 
     try {
       // 在这里编写验证逻辑，验证用户名和密码是否正确
@@ -25,5 +27,7 @@ module.exports={
     } catch (error) {
       ctx.throw(500, 'Internal server error');
     }
+
+  
   }
 }
